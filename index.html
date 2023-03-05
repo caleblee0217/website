@@ -7,6 +7,18 @@
   <meta name="description" content="" />
   <link rel="icon" href="favicon.png">
     <link rel="stylesheet" href="main.css">
+    <script>
+        var counter = 0;
+        function increment() {
+            counter++;
+            document.getElementById('c-display').innerHTML = counter;
+        }
+        
+        function decrement() {
+            counter--;
+            document.getElementById('c-display').innerHTML = counter;
+        }
+    </script>
 </head>
 <body>
     <h1>My Website</h1>
@@ -16,6 +28,9 @@
     
     <a href="language/index.html">Click here</a>
     
+    <p id='c-display'>0</p>
+    <button id='c-incr' onclick="increment();">+</button>
+    <button id='c-decr' onClick="decrement();">-</button>
     <p>
         Please check back later.
     </p>
