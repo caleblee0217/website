@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+h1, p {
+    font-family: 'Lexend', sans-serif;
+}
+
+.frog {
+    display:block;
+    margin-left: auto;
+    margin-top: auto;
+    width=50%;
+}
